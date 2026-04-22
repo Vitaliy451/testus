@@ -1,0 +1,24 @@
+{
+  "entityType" : "NOTIFICATION_TARGET",
+  "entity" : {
+    "configuration" : {
+      "type" : "SLACK",
+      "conversation" : {
+        "email" : null,
+        "id" : "U0AUBFPNZ4K",
+        "name" : "stitenko",
+        "type" : "DIRECT",
+        "wholeName" : "John Doe",
+        "title" : "John Doe"
+      },
+      "conversationType" : "DIRECT",
+      "description" : null
+    },
+    "externalId" : null,
+    "id" : {
+      "entityType" : "NOTIFICATION_TARGET",
+      "id" : "77e0cd90-3e3b-11f1-b7a8-75be0d5c4df2"
+    },
+    "name" : "toSlack"
+  }
+}
