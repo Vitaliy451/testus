@@ -1,11 +1,7 @@
 {
   "entityType" : "DEVICE",
   "entity" : {
-    "additionalInfo" : {
-      "gateway" : false,
-      "overwriteActivityTime" : false,
-      "description" : ""
-    },
+    "additionalInfo" : null,
     "customerId" : {
       "entityType" : "CUSTOMER",
       "id" : "13814000-1dd2-11b2-8080-808080808080"
@@ -20,22 +16,25 @@
     },
     "deviceProfileId" : {
       "entityType" : "DEVICE_PROFILE",
-      "id" : "2ec8fa60-0322-11f0-8f83-43727cd6bc90"
+      "id" : "12d197d0-84dd-11f0-9dcf-813811befd2b"
     },
-    "externalId" : null,
+    "externalId" : {
+      "entityType" : "DEVICE",
+      "id" : "73e90410-baf5-11f0-8f6e-0181075d8a82"
+    },
     "firmwareId" : null,
     "id" : {
       "entityType" : "DEVICE",
-      "id" : "66a16cc0-3e35-11f1-9234-b7886a2047b6"
+      "id" : "73e90410-baf5-11f0-8f6e-0181075d8a82"
     },
-    "label" : "",
-    "name" : "euTest",
+    "label" : null,
+    "name" : "test",
     "ownerId" : null,
     "softwareId" : null,
-    "type" : "default"
+    "type" : "sensor"
   },
   "credentials" : {
-    "credentialsId" : "uwq4f1F9k7mnRPl5qysI",
+    "credentialsId" : "rJZ2hK5adRZHmsyiNCKS",
     "credentialsType" : "ACCESS_TOKEN",
     "credentialsValue" : null
   },
@@ -46,7 +45,7 @@
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "active",
-      "lastUpdateTs" : 1776854063330,
+      "lastUpdateTs" : 1762423410339,
       "longValue" : null,
       "strValue" : null
     }, {
@@ -54,8 +53,16 @@
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "inactivityAlarmTime",
-      "lastUpdateTs" : 1776854063308,
-      "longValue" : 1776854063307,
+      "lastUpdateTs" : 1762423410322,
+      "longValue" : 1762423410318,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "lastActivityTime",
+      "lastUpdateTs" : 1762422788847,
+      "longValue" : 1762422786650,
       "strValue" : null
     } ],
     "SHARED_SCOPE" : [ ]

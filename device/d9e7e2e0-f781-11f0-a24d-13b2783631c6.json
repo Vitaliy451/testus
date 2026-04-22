@@ -22,31 +22,34 @@
       "entityType" : "DEVICE_PROFILE",
       "id" : "2ec8fa60-0322-11f0-8f83-43727cd6bc90"
     },
-    "externalId" : null,
+    "externalId" : {
+      "entityType" : "DEVICE",
+      "id" : "d9e7e2e0-f781-11f0-a24d-13b2783631c6"
+    },
     "firmwareId" : null,
     "id" : {
       "entityType" : "DEVICE",
-      "id" : "66a16cc0-3e35-11f1-9234-b7886a2047b6"
+      "id" : "d9e7e2e0-f781-11f0-a24d-13b2783631c6"
     },
     "label" : "",
-    "name" : "euTest",
+    "name" : "Secret2Device",
     "ownerId" : null,
     "softwareId" : null,
     "type" : "default"
   },
   "credentials" : {
-    "credentialsId" : "uwq4f1F9k7mnRPl5qysI",
+    "credentialsId" : "E7e42A4W1HbaTFJXrHGC",
     "credentialsType" : "ACCESS_TOKEN",
     "credentialsValue" : null
   },
   "relations" : [ ],
   "attributes" : {
     "SERVER_SCOPE" : [ {
-      "booleanValue" : false,
+      "booleanValue" : true,
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "active",
-      "lastUpdateTs" : 1776854063330,
+      "lastUpdateTs" : 1774875912436,
       "longValue" : null,
       "strValue" : null
     }, {
@@ -54,8 +57,16 @@
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "inactivityAlarmTime",
-      "lastUpdateTs" : 1776854063308,
-      "longValue" : 1776854063307,
+      "lastUpdateTs" : 1769080374600,
+      "longValue" : 1769080374580,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "lastActivityTime",
+      "lastUpdateTs" : 1769079759743,
+      "longValue" : 1769079759009,
       "strValue" : null
     } ],
     "SHARED_SCOPE" : [ ]

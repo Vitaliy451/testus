@@ -1,0 +1,92 @@
+{
+  "entityType" : "DEVICE_PROFILE",
+  "entity" : {
+    "default" : true,
+    "defaultDashboardId" : null,
+    "defaultEdgeRuleChainId" : null,
+    "defaultQueueName" : null,
+    "defaultRuleChainId" : null,
+    "description" : "Default device profile",
+    "externalId" : {
+      "entityType" : "DEVICE_PROFILE",
+      "id" : "2ec8fa60-0322-11f0-8f83-43727cd6bc90"
+    },
+    "firmwareId" : null,
+    "id" : {
+      "entityType" : "DEVICE_PROFILE",
+      "id" : "2ec8fa60-0322-11f0-8f83-43727cd6bc90"
+    },
+    "image" : null,
+    "name" : "default",
+    "profileData" : {
+      "alarms" : null,
+      "configuration" : {
+        "type" : "DEFAULT"
+      },
+      "provisionConfiguration" : {
+        "type" : "DISABLED",
+        "provisionDeviceSecret" : null
+      },
+      "transportConfiguration" : {
+        "type" : "DEFAULT"
+      }
+    },
+    "provisionDeviceKey" : null,
+    "provisionType" : "DISABLED",
+    "softwareId" : null,
+    "transportType" : "DEFAULT",
+    "type" : "DEFAULT"
+  },
+  "relations" : [ ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ ]
+  },
+  "calculatedFields" : [ {
+    "additionalInfo" : null,
+    "configuration" : {
+      "type" : "ALARM",
+      "arguments" : {
+        "temperature" : {
+          "defaultValue" : "",
+          "refEntityKey" : {
+            "key" : "temperature",
+            "type" : "TS_LATEST"
+          }
+        }
+      },
+      "clearRule" : null,
+      "createRules" : {
+        "CRITICAL" : {
+          "alarmDetails" : null,
+          "condition" : {
+            "type" : "SIMPLE",
+            "expression" : {
+              "type" : "TBEL",
+              "expression" : "// Triggers when temperature is above 20 degrees\nreturn temperature > 20;"
+            },
+            "schedule" : null
+          },
+          "dashboardId" : null
+        }
+      },
+      "output" : null,
+      "propagate" : false,
+      "propagateRelationTypes" : null,
+      "propagateToOwner" : false,
+      "propagateToOwnerHierarchy" : false,
+      "propagateToTenant" : false
+    },
+    "configurationVersion" : 0,
+    "debugSettings" : {
+      "allEnabled" : false,
+      "allEnabledUntil" : 1776853279612,
+      "failuresEnabled" : true
+    },
+    "name" : "test",
+    "tenantId" : {
+      "entityType" : "TENANT",
+      "id" : "2eae9490-0322-11f0-8f83-43727cd6bc90"
+    },
+    "type" : "ALARM"
+  } ]
+}
